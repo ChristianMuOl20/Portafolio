@@ -22,3 +22,7 @@ Contenido:
 - [3. Escribir en Markdown](03-markdown.md)
 - [4. Personalización visual](04-estilos.md)
 
+<iframe src="{{ site.baseurl }}/assets/files/Tarea-7-Definición-de-problemas.pdf" width="100%" height="600px" style="border: none;">
+  Tu navegador no soporta la visualización de PDFs. Puedes descargarlo 
+  <a href="{{ site.baseurl }}/assets/files/Tarea-7-Definición-de-problemas.pdf">aquí</a>.
+</iframe>
