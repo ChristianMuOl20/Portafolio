@@ -2,6 +2,7 @@
 layout: default
 title: Trabajos
 nav_order: 3
+permalink: /trabajos/
 ---
 
 # Trabajos
