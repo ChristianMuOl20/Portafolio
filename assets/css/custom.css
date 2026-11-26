@@ -1,41 +1,41 @@
 /* === HEADER (barra superior) === */
-.site-header { background-color: #E00034 !important; }
-.site-title, .site-nav a { color: #ffffff !important; }
+.site-header { background-color: #0F2942 !important; }
+.site-title, .site-nav a { color: #FFFFFF !important; }
 
 /* === ENLACES EN CONTENIDO (sin morado/azul y con subrayado del color) === */
-:root { --link-color: #E00034; }
+:root { --link-color: #0F2942; }
 a, a:visited { color: var(--link-color); }
-a { text-decoration-color: rgba(224, 0, 52, 0.4); }
-a:hover { color: #b00028; text-decoration-color: rgba(176, 0, 40, 0.6); }
-a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
+a { text-decoration-color: rgba(15, 41, 66, 0.4); }
+a:hover { color: #1D4E89; text-decoration-color: rgba(29, 78, 137, 0.6); }
+a:focus { outline: 2px solid #BAE6FD; outline-offset: 2px; }
 
-/* === SIDEBAR ROJO COMPLETO === */
+/* === SIDEBAR AZUL OSCURO COMPLETO === */
 .side-bar,
 .side-bar .site-nav,
-.side-bar .nav-list { background-color: #E00034 !important; }
+.side-bar .nav-list { background-color: #0F2942 !important; }
 
 /* Título del sitio en el sidebar */
 .side-bar .site-title {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
   font-weight: 500;
   font-size: 1.4rem;
 }
 
 /* Links del sidebar (texto blanco; sin degradados) */
 .nav-list .nav-list-link,
-.nav-list .nav-list-link:visited { color: #ffffff !important; }
+.nav-list .nav-list-link:visited { color: #FFFFFF !important; }
 .nav-list .nav-list-link,
 .nav-list .nav-list-link.active,
 .nav-list .nav-list-link:hover {
   background: none !important;            /* quita el gradiente lila */
 }
 .nav-list .nav-list-link.active {
-  color: #FFD5DE !important;
+  color: #BAE6FD !important;
   font-weight: 500;
   background-color: rgba(255,255,255,0.12) !important;
 }
 .nav-list .nav-list-link:hover {
-  color: #FFD5DE !important;
+  color: #BAE6FD !important;
   background-color: rgba(255,255,255,0.08) !important;
 }
 
@@ -45,26 +45,26 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
 /* Flechas (chevrons) del menú */
 .nav-list-expander,
 .nav-list-expander svg {
-  color: #ffffff !important;
-  stroke: #ffffff !important;
+  color: #FFFFFF !important;
+  stroke: #FFFFFF !important;
   fill: none !important;
 }
 .nav-list-expander:hover,
 .nav-list-expander:hover svg {
-  color: #FFD5DE !important;
-  stroke: #FFD5DE !important;
+  color: #BAE6FD !important;
+  stroke: #BAE6FD !important;
 }
 
 /* === FOOTER DEL SIDEBAR (texto y enlace legibles) === */
-.side-bar .site-footer { color: #ffffff !important; }
+.side-bar .site-footer { color: #FFFFFF !important; }
 .side-bar .site-footer a,
 .side-bar .site-footer a:visited {
-  color: #FFD5DE !important;
-  text-decoration-color: rgba(255,213,222,0.6);
+  color: #BAE6FD !important;
+  text-decoration-color: rgba(186, 230, 253, 0.6);
 }
 .side-bar .site-footer a:hover {
-  color: #ffffff !important;
-  text-decoration-color: #ffffff;
+  color: #FFFFFF !important;
+  text-decoration-color: #FFFFFF;
 }
 
 /* === MENÚ HAMBURGUESA (móvil) EN BLANCO === */
@@ -75,37 +75,37 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
 .menu-icon svg,
 .site-header .menu-icon,
 .site-header .menu-button {
-  color: #ffffff !important;
-  fill:  #ffffff !important;
-  stroke:#ffffff !important;
+  color: #FFFFFF !important;
+  fill:  #FFFFFF !important;
+  stroke:#FFFFFF !important;
 }
 #menu-toggle:focus + label,
-.menu-button:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
+.menu-button:focus { outline: 2px solid #BAE6FD; outline-offset: 2px; }
 
 /* === MIGAS (breadcrumbs) a la paleta === */
-.breadcrumbs li a, .breadcrumbs li a:visited { color: #E00034; }
-.breadcrumbs li a:hover { color: #b00028; }
+.breadcrumbs li a, .breadcrumbs li a:visited { color: #0F2942; }
+.breadcrumbs li a:hover { color: #1D4E89; }
 
 /* === CONTENIDO === */
-.page-content { background-color: #ffffff; color: #333333; }
+.page-content { background-color: #FFFFFF; color: #1E293B; }
 
 /* ===== 1) Header: iconos/botón del menú en blanco (forzado) ===== */
 .site-header svg,
 .site-header .menu-icon,
 .site-header .menu-button,
 .site-header .menu-icon svg {
-  color: #ffffff !important;
-  fill:  #ffffff !important;
-  stroke:#ffffff !important;
+  color: #FFFFFF !important;
+  fill:  #FFFFFF !important;
+  stroke:#FFFFFF !important;
 }
 
 /* Estado abierto del menú (checkbox marcado) */
 #menu-toggle:checked + label,
 #menu-toggle:checked + label .menu-icon,
 #menu-toggle:checked + label .menu-icon svg {
-  color: #ffffff !important;
-  fill:  #ffffff !important;
-  stroke:#ffffff !important;
+  color: #FFFFFF !important;
+  fill:  #FFFFFF !important;
+  stroke:#FFFFFF !important;
 }
 
 /* Fallback por si el tema usa otros selectores para el toggle */
@@ -113,34 +113,34 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
 .site-header .nav-toggle .icon,
 .site-header .nav-trigger,
 .site-header .nav-trigger .icon {
-  color: #ffffff !important;
-  fill:  #ffffff !important;
-  stroke:#ffffff !important;
+  color: #FFFFFF !important;
+  fill:  #FFFFFF !important;
+  stroke:#FFFFFF !important;
 }
 
 /* ===== FOOTER: estilos separados por breakpoint ===== */
 
-/* Desktop (sidebar visible, fondo rojo) */
+/* Desktop (sidebar visible, fondo azul oscuro) */
 @media (min-width: 66rem) {
   .side-bar .site-footer {
-    color: #ffffff !important;
+    color: #FFFFFF !important;
     opacity: 1 !important;
   }
   .side-bar .site-footer a,
   .side-bar .site-footer a:visited {
-    color: #FFD5DE !important;
-    text-decoration-color: rgba(255, 213, 222, 0.6) !important;
+    color: #BAE6FD !important;
+    text-decoration-color: rgba(186, 230, 253, 0.6) !important;
   }
   .side-bar .site-footer a:hover {
-    color: #ffffff !important;
-    text-decoration-color: #ffffff !important;
+    color: #FFFFFF !important;
+    text-decoration-color: #FFFFFF !important;
   }
 }
 
 /* Móvil / pantalla chica (footer global sobre fondo claro) */
 @media (max-width: 66rem) {
   footer.site-footer {
-    background: #ffffff !important;   /* fondo claro */
+    background: #FFFFFF !important;   /* fondo claro */
     opacity: 1 !important;
   }
 
@@ -149,19 +149,19 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
   footer.site-footer p,
   footer.site-footer span,
   footer.site-footer *:not(a) {
-    color: #495057 !important;
+    color: #475569 !important;
     text-shadow: none !important;
   }
 
-  /* Enlaces del footer en rojo Ibero */
+  /* Enlaces del footer en azul oscuro */
   footer.site-footer a,
   footer.site-footer a:visited {
-    color: #E00034 !important;
-    text-decoration-color: rgba(224, 0, 52, 0.5) !important;
+    color: #0F2942 !important;
+    text-decoration-color: rgba(15, 41, 66, 0.5) !important;
   }
   footer.site-footer a:hover {
-    color: #b00028 !important;
-    text-decoration-color: rgba(176, 0, 40, 0.7) !important;
+    color: #1D4E89 !important;
+    text-decoration-color: rgba(29, 78, 137, 0.7) !important;
   }
 }
 
@@ -206,11 +206,11 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
 
 /* Hover y Activo más notorios */
 .side-bar .nav-list .nav-list-link:hover {
-  color: #FFD5DE !important;
+  color: #BAE6FD !important;
   background: rgba(255,255,255,0.10) !important;
 }
 .side-bar .nav-list .nav-list-link.active {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
   font-weight: 500;
   background: rgba(255,255,255,0.20) !important;
 }
@@ -218,12 +218,12 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
 /* Barra izquierda solo para hijos (nivel 2+) en hover/activo */
 .side-bar .nav-list .nav-list-item .nav-list .nav-list-link:hover,
 .side-bar .nav-list .nav-list-item .nav-list .nav-list-link.active {
-  border-left-color: #FFD5DE;
+  border-left-color: #BAE6FD;
 }
 
 /* Mejor foco accesible */
 .side-bar .nav-list .nav-list-link:focus {
-  outline: 2px solid #FFD5DE !important;
+  outline: 2px solid #BAE6FD !important;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -241,37 +241,37 @@ footer.site-footer { display: none !important; }
   margin-top: 3rem;
   padding-top: 1rem;
   /* border-top: 1px solid #e5e7eb;     /* separador sutil */
-  color: #6B7280;                     /* gris medio */
+  color: #64748B;                     /* gris pizarra medio */
   font-size: 0.95rem;
   background: transparent;
 }
 
 .custom-footer a,
 .custom-footer a:visited{
-  color: #E00034;                     /* rojo IBERO */
-  text-decoration-color: rgba(224,0,52,.45);
+  color: #0F2942;                     
+  text-decoration-color: rgba(15, 41, 66, 0.45);
 }
 
 .custom-footer a:hover{
-  color: #b00028;
-  text-decoration-color: rgba(176,0,40,.65);
+  color: #1D4E89;
+  text-decoration-color: rgba(29, 78, 137, 0.65);
 }
 
 .custom-footer__modified strong{
-  color: #4B5563;                     /* gris un poco más oscuro para el label */
+  color: #475569;                     /* gris pizarra oscuro para el label */
 }
 
 /* Asegura legibilidad en móvil (fondo claro) */
 @media (max-width: 66rem){
   .custom-footer{
-    background: #ffffff;
-    color: #6B7280;
+    background: #FFFFFF;
+    color: #64748B;
   }
 }
 
 /* ===== NAVBAR FIX (Just the Docs) =====
-   - Neutraliza pseudo-elementos globales en el sidebar para evitar "∞"
-   - Redibuja un bullet limpio solo en el 2º nivel
+- Neutraliza pseudo-elementos globales en el sidebar para evitar "∞"
+- Redibuja un bullet limpio solo en el 2º nivel
 */
 .side-bar a::before,
 .side-bar a::after,
