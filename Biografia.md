@@ -2,6 +2,7 @@
 layout: default
 title: Biografía
 nav_order: 2
+permalink: /biografia/
 ---
 
 # Biografía
