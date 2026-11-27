@@ -7,8 +7,10 @@ permalink: /biografia/
 
 # Biografía
 
-<div class="responsive-embed">
-  <iframe src="{{ 'assets/files/Foto-yo.jpeg' | relative_url }}" title="Yo"></iframe>
+<div style="max-width: 600px;">
+  <div class="responsive-embed">
+    <iframe src="{{ 'assets/files/Foto-yo.jpeg' | relative_url }}" title="Certificación Coursera"></iframe>
+  </div>
 </div>
 
 Hola, soy Christian Santiago Muñoz Olivera
