@@ -27,5 +27,5 @@ permalink: /biografia/
 
 ## Participaciones
 - **Escudería AFATOS** — Miembro fundador en el desafío *STEM Racing México*.
-- **Debate Prepa Ibero** — Miembro activo.
+- **Debate Prepa Ibero** — Ex miembro.
 - **XV Modelo Congreso de la Unión** — Participante en Prepa Ibero.
