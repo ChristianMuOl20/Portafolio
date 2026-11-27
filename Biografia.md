@@ -7,6 +7,10 @@ permalink: /biografia/
 
 # Biografía
 
+<div class="responsive-embed">
+  <iframe src="{{ 'assets/files/Foto-yo.jpeg' | relative_url }}" title="Yo"></iframe>
+</div>
+
 Hola, soy Christian Santiago Muñoz Olivera
 
 En este espacio les contare un poco más de mí, actualmente estoy estudiando la carrera de Ingeniería en Inteligencia Artificial en la IBERO Ciudad de México, me gusta jugar videojuegos y hacer deportes
