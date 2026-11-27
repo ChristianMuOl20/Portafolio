@@ -22,5 +22,7 @@ Este portafolio tiene como objetivo documentar todos mis avances a lo largo de m
 
 ## Participaciones
 -Miembro fundador de la Escudería AFATOS en el desafío STEM RACING MEXICO
+
 -Miembro de Debate Prepa Ibero
+
 -Participante en el XV Modelo Congreso de la Union Prepa Ibero
