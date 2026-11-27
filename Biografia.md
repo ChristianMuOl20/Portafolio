@@ -7,28 +7,25 @@ permalink: /biografia/
 
 # Biografía
 
-<div style="max-width: 600px;">
-  <div class="responsive-embed">
-    <iframe src="{{ 'assets/files/Foto-yo.jpeg' | relative_url }}" title="Certificación Coursera"></iframe>
+<div class="bio-layout">
+  <img class="bio-layout__img" src="{{ '/assets/files/Foto-yo.jpeg' | relative_url }}" alt="Christian Santiago Muñoz Olivera">
+  <div>
+    <p>Hola, soy <strong>Christian Santiago Muñoz Olivera</strong>.</p>
+    <p>Actualmente estudio la carrera de <strong>Ingeniería en Inteligencia Artificial</strong> en la <strong>IBERO Ciudad de México</strong>. En mi tiempo libre disfruto jugar videojuegos y hacer deportes.</p>
+    <p>Este portafolio tiene como objetivo documentar mis avances a lo largo de mi formación, reuniendo tanto proyectos escolares como profesionales.</p>
   </div>
 </div>
 
-Hola, soy Christian Santiago Muñoz Olivera
-
-En este espacio les contare un poco más de mí, actualmente estoy estudiando la carrera de Ingeniería en Inteligencia Artificial en la IBERO Ciudad de México, me gusta jugar videojuegos y hacer deportes
-
-Este portafolio tiene como objetivo documentar todos mis avances a lo largo de mi formación profesional, tanto proyectos escolares como profesioanles.
-
 ## Habilidades
-- Gestión de proyectos
-- Resolución de problemas
-- Responsable y comprometido
-- Capacidad Numerica
-- Flexibilidad
+<ul class="bio-tags">
+  <li>Gestión de proyectos</li>
+  <li>Resolución de problemas</li>
+  <li>Responsable y comprometido</li>
+  <li>Capacidad numérica</li>
+  <li>Flexibilidad</li>
+</ul>
 
 ## Participaciones
--Miembro fundador de la Escudería AFATOS en el desafío STEM RACING MEXICO
-
--Miembro de Debate Prepa Ibero
-
--Participante en el XV Modelo Congreso de la Union Prepa Ibero
+- **Escudería AFATOS** — Miembro fundador en el desafío *STEM Racing México*.
+- **Debate Prepa Ibero** — Miembro activo.
+- **XV Modelo Congreso de la Unión** — Participante en Prepa Ibero.
