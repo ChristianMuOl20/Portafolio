@@ -8,6 +8,7 @@ permalink: /biografia/
 # Biografía
 
 Hola, soy Christian Santiago Muñoz Olivera
+
 En este espacio les contare un poco más de mí, actualmente estoy estudiando la carrera de Ingeniería en Inteligencia Artificial en la IBERO Ciudad de México, me gusta jugar videojuegos y hacer deportes
 
 Este portafolio tiene como objetivo documentar todos mis avances a lo largo de mi formación profesional, tanto proyectos escolares como profesioanles.
